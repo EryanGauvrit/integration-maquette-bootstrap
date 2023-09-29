@@ -1,0 +1,21 @@
+footer {
+    .footer-bloc {
+        div {
+            align-items: center;
+        }
+    }
+}
+
+@include  media-breakpoint-down(md) {
+    footer {
+        display: flex;
+        justify-content: center;
+        .footer-bloc {
+            flex-direction: column;
+            div {
+                align-items: flex-start;
+                width: auto;
+             }
+         }
+    }
+}

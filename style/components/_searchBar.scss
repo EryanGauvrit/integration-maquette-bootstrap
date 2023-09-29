@@ -1,0 +1,9 @@
+.search-bar-bloc {
+    width: 50%;
+}
+
+@include  media-breakpoint-down(md) {
+    .search-bar-bloc {
+        width: 75%;
+    }
+}

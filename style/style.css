@@ -11859,4 +11859,40 @@ textarea.form-control-lg {
   max-width: none;
 }
 
+.search-bar-bloc {
+  width: 50%;
+}
+
+@media (max-width: 767.98px) {
+  .search-bar-bloc {
+    width: 75%;
+  }
+}
+.custom-cell {
+  max-width: none;
+}
+
+@media (max-width: 767.98px) {
+  .custom-cell {
+    max-width: 8rem;
+  }
+}
+footer .footer-bloc div {
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  footer .footer-bloc {
+    flex-direction: column;
+  }
+  footer .footer-bloc div {
+    align-items: flex-start;
+    width: auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

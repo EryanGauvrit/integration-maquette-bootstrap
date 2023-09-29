@@ -1,0 +1,9 @@
+.custom-cell {
+    max-width: none;
+}
+
+@include  media-breakpoint-down(md) {
+    .custom-cell {
+        max-width: 8rem;
+    }
+}
